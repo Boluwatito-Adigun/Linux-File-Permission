@@ -16,12 +16,12 @@ A scenario based situation where an organization needs to update the file permis
 - Bash Shell.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
+
 To complete this task, I performed the following tasks:
 ### Check file and directory details
 The following code demonstrates how I used Linux commands to determine the existing permissions set for a specific directory in the file system.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+https://github.com/Boluwatito-Adigun/Linux-File-Permission/blob/main/2-1.jpg
 
 The first line of the screenshot displays the command I entered, and the other lines display the output. The code lists all contents of the projects directory. I used the ls command with the -la option to display a detailed listing of the file contents that also returned hidden files. The output of my command indicates that there is one directory named drafts, one hidden file named .project_x.txt, and five other project files. The 10-character string in the first column represents the permissions set on each file or directory.
 Describe the permissions string
