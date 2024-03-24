@@ -38,7 +38,7 @@ The organization determined that other shouldn't have write access to any of the
 
 The following code demonstrates how I used Linux commands to do this:
 
-
+https://github.com/Boluwatito-Adigun/Linux-File-Permission/blob/main/3-1.jpg
 
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. The chmod command changes the permissions on files and directories. The first argument indicates what permissions should be changed, and the second argument specifies the file or directory. In this example, I removed write permissions from other for the project_k.txt file. After this, I used ls -la to review the updates I made.
 
@@ -47,7 +47,7 @@ The research team at my organization recently archived project_x.txt. They do no
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
-
+https://github.com/Boluwatito-Adigun/Linux-File-Permission/blob/main/4-1.jpg
 
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I know .project_x.txt is a hidden file because it starts with a period (.). In this example, I removed write permissions from the user and group, and added read permissions to the group. I removed write permissions from the user with u-w. Then, I removed write permissions from the group with g-w, and added read permissions to the group with g+r. 
 
@@ -56,7 +56,7 @@ My organization only wants the researcher2 user to have access to the drafts dir
 
 The following code demonstrates how I used Linux commands to change the permissions:
 
-
+https://github.com/Boluwatito-Adigun/Linux-File-Permission/blob/main/5-1.jpg
 
 The first two lines of the screenshot display the commands I entered, and the other lines display the output of the second command. I previously determined that the group had execute permissions, so I used the chmod command to remove them. The researcher2 user already had execute permissions, so they did not need to be added.
 
